@@ -31,6 +31,13 @@ Section 3 (3uur): In deze sectie hebben we gekeken naar hoe je een API kan teste
 Udemy Online Course
 
 use http://requestbin.net - RECOMMENDED, but sometimes still offline
+
 use https://hookbin.com - RECOMMENDED
+
 use an alternative service but with a different UI https://httpbin.org/ - GOOD ALTERNATIVE
+
 https://postman-quick-reference-guide.readthedocs.io/_/downloads/en/latest/pdf/
+
+https://developer.atlassian.com/cloud/trello/rest/api-group-cards/#api-cards-post
+
+https://trello.com/
