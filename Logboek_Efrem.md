@@ -16,6 +16,10 @@ Section 3 (3uur): In deze sectie hebben we gekeken naar hoe je een API kan teste
 
 ## 11/10 Week 4 - XX uur
 
+Sectie 4 (2uur): In deze sectie werd gekeken naar het verschil tussen globale en environment variabele. Het verschil was al van sectiie 3 duidelijk voor mij. Voor opdracht 2 gebruikte ik globale variabele. Ik zal voor opdracht 3 environment variabele gebruiken. Daarna werd ook gekeken naar de pre-request scripts in postman. Dat is ook iets interessant om bijvoorbeeld een randomnaam van een bord mee te geven aan een variabele. Zie github - opdracht 3. Na de opdracht was er nog een video waarbij hij uiitlegde hoe je meerdere links kunt configureren als environment variabele om meerdere api-url uit te testen.
+
+Sectie 5: Deze sectie ga ik niet bekijken wegens de verouderde versie (wordt verwijderd na dit jaar).
+
 ## 18/10 Week 5 - XX uur
 
 ## 25/10 - Week 6 - XX uur
