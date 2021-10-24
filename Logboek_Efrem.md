@@ -32,17 +32,17 @@ Sectie 4 (2uur): In deze sectie werd gekeken naar het verschil tussen globale en
 
 Sectie 5: Deze sectie ga ik niet bekijken wegens de verouderde versie (wordt verwijderd na dit jaar).
 
-## 18/10 Week 5 - 5 uur
+## 18/10 Week 5 - 5 uur 30
 
 Gastcollege Behavior Driven Development op campus (2uur)
 
 Sectie 6 (1uur): In deze sectie werd het onderwerp assertie uitgelegd. Ten eerste hebben we gekeken naar de basic postman asserties. Daarna keken we naar asserties in een array met een for... of loop (javascript). Daarna hebben we ook gekeken naar asserties in geneste objecten. Na alle video's die hij uitlegde gaf de auteur een video op youtube, waarop die persoon ook uitlegd hoe je met asserties moet werken (objects, arrays en nested objects). In de map "quiz 2" vind u de quiz die ik heb gemaakt tijdens deze sectie.
 
-Sectie 7 (2uur): In deze sectie werden een paar zaken behandeld. Als eerste hebben we naar de collection runner gekeken (deze zal bestaande collecties met bepaalde intervallen uitvoeren). Daarna werd gekeken naar de postman monitors. Daarna werd hebben we gekeken naar de Newman environment. Hoe je een collectie runt met newman, hoe je newman environment installeerd (CLI(nodejs)). Newman is simpel gezegd een CLI-tool dat collecties kan runnen vanaf de command line. Er werd ook uitgelegd hoe je Newman moet laten draaien op Jenkins en wat de pre-condities zijn. Als laatste kan je in de map "Sectie 7" gaan om te zien hoe ik newman installer, html reports aanmaak,...
+Sectie 7 (2uur30): In deze sectie werden een paar zaken behandeld. Als eerste hebben we naar de collection runner gekeken (deze zal bestaande collecties met bepaalde intervallen uitvoeren). Daarna werd gekeken naar de postman monitors. Daarna werd hebben we gekeken naar de Newman environment. Hoe je een collectie runt met newman, hoe je newman environment installeerd (CLI(nodejs)). Newman is simpel gezegd een CLI-tool dat collecties kan runnen vanaf de command line. Er werd ook uitgelegd hoe je Newman moet laten draaien op Jenkins en wat de pre-condities zijn. Als laatste kan je in de map "Sectie 7" gaan om te zien hoe ik newman installer, html reports aanmaak en testen laat runnen met newman en jenkins.
 
 ## 25/10 - Week 6 - XX uur
 
-# Totale duur : 15 uur
+# Totale duur : 15 uur 30
 
 # Bronnen 
 
