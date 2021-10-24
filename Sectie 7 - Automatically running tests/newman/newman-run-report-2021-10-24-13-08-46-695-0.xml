@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Trello" tests="6" time="1.742">
+  <testsuite name="Create Board" id="570ae29e-c271-4bd6-b430-6e4382d6506c" timestamp="2021-10-24T13:08:44.334Z" tests="3" failures="0" errors="0" time="0.390">
+    <testcase name="Status code is 200" time="0.390" classname="Trello"/>
+    <testcase name="Board should be created" time="0.390" classname="Trello"/>
+    <testcase name="Board should be private" time="0.390" classname="Trello"/>
+  </testsuite>
+  <testsuite name="Create TODO List" id="c7a238e8-7c0c-40a2-9262-4d6c313876a4" timestamp="2021-10-24T13:08:44.334Z" tests="4" failures="0" errors="0" time="0.209">
+    <testcase name="Status code is 200" time="0.209" classname="Trello"/>
+    <testcase name="Check list name" time="0.209" classname="Trello"/>
+    <testcase name="Check list is not closed" time="0.209" classname="Trello"/>
+    <testcase name="List is created in API_test board" time="0.209" classname="Trello"/>
+  </testsuite>
+  <testsuite name="Create DONE List" id="ba8b05bc-4b29-46b2-946e-1811d14c7c48" timestamp="2021-10-24T13:08:44.334Z" tests="4" failures="0" errors="0" time="0.184">
+    <testcase name="Status code is 200" time="0.184" classname="Trello"/>
+    <testcase name="Check list name" time="0.184" classname="Trello"/>
+    <testcase name="Check list is not closed" time="0.184" classname="Trello"/>
+    <testcase name="List is created in API_test board" time="0.184" classname="Trello"/>
+  </testsuite>
+  <testsuite name="Create Card &quot;Learn Postman&quot; in TODO List" id="14201548-3002-44c1-9c77-fa01d97bba4e" timestamp="2021-10-24T13:08:44.334Z" tests="4" failures="0" errors="0" time="0.239">
+    <testcase name="Status code is 200" time="0.239" classname="Trello"/>
+    <testcase name="Check card name" time="0.239" classname="Trello"/>
+    <testcase name="Check card is not closed" time="0.239" classname="Trello"/>
+    <testcase name="card is created in TODO list" time="0.239" classname="Trello"/>
+  </testsuite>
+  <testsuite name="Put Card &quot;Learn Postman&quot; in DONE List" id="26e6d9f8-cec5-4713-9314-1bb0b0ce3afe" timestamp="2021-10-24T13:08:44.334Z" tests="4" failures="0" errors="0" time="0.250">
+    <testcase name="Status code is 200" time="0.250" classname="Trello"/>
+    <testcase name="Check card name" time="0.250" classname="Trello"/>
+    <testcase name="Check card is not closed" time="0.250" classname="Trello"/>
+    <testcase name="card is in DONE list" time="0.250" classname="Trello"/>
+  </testsuite>
+  <testsuite name="Delete Board" id="71c77453-4edf-4517-a933-90076b1091cb" timestamp="2021-10-24T13:08:44.334Z" tests="1" failures="0" errors="0" time="0.470">
+    <testcase name="Status code is 200" time="0.470" classname="Trello"/>
+  </testsuite>
+</testsuites>
