@@ -40,9 +40,17 @@ Sectie 6 (1uur): In deze sectie werd het onderwerp assertie uitgelegd. Ten eerst
 
 Sectie 7 (2uur30): In deze sectie werden een paar zaken behandeld. Als eerste hebben we naar de collection runner gekeken (deze zal bestaande collecties met bepaalde intervallen uitvoeren). Daarna werd gekeken naar de postman monitors. Daarna werd hebben we gekeken naar de Newman environment. Hoe je een collectie runt met newman, hoe je newman environment installeerd (CLI(nodejs)). Newman is simpel gezegd een CLI-tool dat collecties kan runnen vanaf de command line. Er werd ook uitgelegd hoe je Newman moet laten draaien op Jenkins en wat de pre-condities zijn. Als laatste kan je in de map "Sectie 7" gaan om te zien hoe ik newman installer, html reports aanmaak en testen laat runnen met newman en jenkins.
 
-## 25/10 - Week 6 - XX uur
+## 25/10 - Week 6 - 4 uur
 
-# Totale duur : 15 uur 30
+Gastcollege Cypress (2uur): Bij deze gastcollege hebben we gevolgd wat hij kwam vertellen over Cypress. Daarna maakte we een paar simpele oefeningen (tests) samen.
+
+Sectie 8 (1uur): In deze sectie keken we naar Gitlab CI, TeamCity en Docker. Hierbij installeer ik docker met de CLI en ga ik een paar testen uitvoeren.
+
+Sectie 9 (1uur): Deze sectie was kort, maar met een oefening erbij. Hierbij hebben we eerst gekeken naar de workflows and scenarios van de uitgevoerde testen. Wanneer dat een bepaalde request/test als eerste moet komen, wanneer een andrer request als 2de moet komen. Daarna maakte ik een oefening: opdracht 5: zie github.
+
+## 08/11 - Week 7 - XX uur
+
+# Totale duur : 19 uur 30
 
 # Bronnen 
 
@@ -63,4 +71,6 @@ https://trello.com/
 https://github.com/postmanlabs/newman
 
 https://www.jenkins.io/
+
+https://github.com/postmanlabs/newman/tree/develop/docker
 

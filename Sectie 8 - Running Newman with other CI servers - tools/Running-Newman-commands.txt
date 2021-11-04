@@ -1,0 +1,10 @@
+Running Newman 
+===============
+
+Locally:
+cd C:\Users\Efrem\Documents\GitHub\SoftwareTesting\Opdracht 3 - Make the requests dynamic by taking advantages of variables
+
+newman run "Opdracht 3.json" --environment "trello-environment.json" --reporters cli,junit,htmlextra --reporter-junit-export "newman/report.xml" --reporter-html-export "newman/report.html"
+
+GIT:
+newman run "Opdracht 3 - Make the requests dynamic by taking advantages of variables/Opdracht 3.json" --environment "Opdracht 3 - Make the requests dynamic by taking advantages of variables/trello-environment.json" --reporters cli,junit,htmlextra --reporter-junit-export "newman/report.xml" --reporter-html-export "newman/report.html"
