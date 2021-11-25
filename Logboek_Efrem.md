@@ -48,9 +48,27 @@ Sectie 8 (1uur): In deze sectie keken we naar Gitlab CI, TeamCity en Docker. Hie
 
 Sectie 9 (1uur): Deze sectie was kort, maar met een oefening erbij. Hierbij hebben we eerst gekeken naar de workflows and scenarios van de uitgevoerde testen. Wanneer dat een bepaalde request/test als eerste moet komen, wanneer een andrer request als 2de moet komen. Daarna maakte ik een oefening: opdracht 5: zie github.
 
-## 08/11 - Week 7 - XX uur
+## 08/11 - Week 7 - 1 uur
 
-# Totale duur : 19 uur 30
+Sectie 10 (30min): Data Driven Tests. Bij deze sectie heb ik geleerd hoe ik data sets kan aanmaken en hoe ik die de data sets kan gebruiken en daarbij ook testen vastgelegd met pre-requested scripts. Daarna heb ik gezien hoe ik externe data files kan gebruiken voor het runnen van meerde requests naar een adres met verschillende data sets. Daarbij ook testen vatgelegd met scripts om te kijken of de data sets bepaalde delen zouden missen of fouten bevatten.
+
+Qectie 11 (30min): In deze sectie werd er getoond hoe dat je een repository kan maken met Github om zo een workspace te kunnen delen met iemand, alsook de samenwerking module dat er mogelijk is via github en via postman zelf. Daarna werden de rechten van de users besproken en hoe je die kan wijzigen in de loop van de tijd.
+
+## 15/11 - Week 8 - 1 uur
+
+Sectie 12 (30min): Bij deze sectie heb ik geleerd hoe dat ik een mock server kan aanmaken op postman. Als eerste werd gezegd wat een mock-server is, wat het doet en hoe je het gebruikt. Een mock-server is een api die je zelf kan opstellen met een response body zodat je zelf een api kan testen. Daarna heb ik gezien hoe je een mock-server kan gebruiken voor front-end developpers. Als laatste werd nog besproken hoe je response kan bijhouden van een bestaande API.
+
+Sectie 13 (30min): In deze sectie heb ik eerst geleerd hoe dat ik een upload form van een applicatie/website kan testen. Bijvoorbeeld of de file die geupload is succesvol is en de status code 200 bevat. Daarna heb ik geleerd hoe dat ik automatische testen kan runnen voor het "upload form test" met Newman of docker. Om dat te doen moet je jouw test-omgeving exporteren van postman en via de cli uitvoeren met newman/docker.
+
+## 22/11 - Week 9 - 30 min
+
+Sectie 14 (30min): In deze sectie heb ik bijgeleerd over het authenticatie. Ten eerste heb ik gezien hoe je de basic-auth configureerd op postman. Ten tweede heb ik gezien hoe je OAuth2 kan gebruiken bij postman, hierbij moest je een authorization en token aanvragen van een test-site met afbeeldingen, waarbij je status code 200 kreeg na het invullen van de tokens-authenticatie. Zo kan je de OAuth2 Authorization testen van een website/applicatie. Daarna werd er getoond hoe je form-based / session-based authenticatie kon testen op een bepaalde site. Als laatste werd er uitgelegd wat de JSON Web Tokens (JWT) zijn, wat ze bevatten en waarvoor ze dienen. Deze tokens zijn een geëncrypteerde combinatie die bepaalde zaken bijhoudt van login zoals email of andere zaken wanneer iemand zich inlogd. Daarom dat de tokens altijd uniek zin.
+
+## 29/11 - Week 10 - XX uur
+
+
+
+# Totale duur : 22 uur
 
 # Bronnen 
 
@@ -64,6 +82,8 @@ use an alternative service but with a different UI https://httpbin.org/ - GOOD A
 
 https://postman-quick-reference-guide.readthedocs.io/_/downloads/en/latest/pdf/
 
+https://drive.google.com/file/d/1Zh3J13aqbBolW7SbLtarZ-PN0joCUA6K/view
+
 https://developer.atlassian.com/cloud/trello/rest/api-group-cards/#api-cards-post
 
 https://trello.com/
@@ -73,4 +93,6 @@ https://github.com/postmanlabs/newman
 https://www.jenkins.io/
 
 https://github.com/postmanlabs/newman/tree/develop/docker
+
+https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation
 
