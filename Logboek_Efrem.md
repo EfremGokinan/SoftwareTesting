@@ -60,15 +60,17 @@ Sectie 12 (30min): Bij deze sectie heb ik geleerd hoe dat ik een mock server kan
 
 Sectie 13 (30min): In deze sectie heb ik eerst geleerd hoe dat ik een upload form van een applicatie/website kan testen. Bijvoorbeeld of de file die geupload is succesvol is en de status code 200 bevat. Daarna heb ik geleerd hoe dat ik automatische testen kan runnen voor het "upload form test" met Newman of docker. Om dat te doen moet je jouw test-omgeving exporteren van postman en via de cli uitvoeren met newman/docker.
 
-## 22/11 - Week 9 - 30 min
+## 22/11 - Week 9 - 1 uur 30 
 
 Sectie 14 (30min): In deze sectie heb ik bijgeleerd over het authenticatie. Ten eerste heb ik gezien hoe je de basic-auth configureerd op postman. Ten tweede heb ik gezien hoe je OAuth2 kan gebruiken bij postman, hierbij moest je een authorization en token aanvragen van een test-site met afbeeldingen, waarbij je status code 200 kreeg na het invullen van de tokens-authenticatie. Zo kan je de OAuth2 Authorization testen van een website/applicatie. Daarna werd er getoond hoe je form-based / session-based authenticatie kon testen op een bepaalde site. Als laatste werd er uitgelegd wat de JSON Web Tokens (JWT) zijn, wat ze bevatten en waarvoor ze dienen. Deze tokens zijn een geëncrypteerde combinatie die bepaalde zaken bijhoudt van login zoals email of andere zaken wanneer iemand zich inlogd. Daarom dat de tokens altijd uniek zin.
+
+Sectie 15 (1uur): In deze sectie keken we eerst naar de manier waarop je testen herbruikt in multiple requests. Door alle testen in een variabele te steken en die daarna als globale variabele mee te geven is dat mogelijk. Als 2de heb ik geleeerd hoe ik moet omgaan met CSV responses, dit hebben we gedaan met PapaParse (zie bronnen). Ten 3de heb ik geleerd hoe ik files kan schrijven in de file system (schijf) aan de hand van Newman en hoe ik ook variabele kan doorgeven aan Newman. Daarna heb ik nog geleerd hoe dat ik een request kan sturen vanuit de pre-request-tab. Als laatste heb ik geleerd hoe ik een connectie kan vastleggen met een database, alsook hoe dat ik  JSON schema validatie kan laten testen vanuit responses van de databank, om bijvoorbeeld na te kijken dat een bepaalde waarde een string is.
 
 ## 29/11 - Week 10 - XX uur
 
 
 
-# Totale duur : 22 uur
+# Totale duur : 23 uur
 
 # Bronnen 
 
@@ -96,3 +98,4 @@ https://github.com/postmanlabs/newman/tree/develop/docker
 
 https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation
 
+https://www.papaparse.com/
