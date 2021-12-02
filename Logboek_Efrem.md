@@ -48,9 +48,9 @@ Sectie 8 (1uur): In deze sectie keken we naar Gitlab CI, TeamCity en Docker. Hie
 
 Sectie 9 (1uur): Deze sectie was kort, maar met een oefening erbij. Hierbij hebben we eerst gekeken naar de workflows and scenarios van de uitgevoerde testen. Wanneer dat een bepaalde request/test als eerste moet komen, wanneer een andrer request als 2de moet komen. Daarna maakte ik een oefening: opdracht 5: zie github.
 
-## 08/11 - Week 7 - 1 uur
+## 08/11 - Week 7 - 1 uur 30
 
-Sectie 10 (30min): Data Driven Tests. Bij deze sectie heb ik geleerd hoe ik data sets kan aanmaken en hoe ik die de data sets kan gebruiken en daarbij ook testen vastgelegd met pre-requested scripts. Daarna heb ik gezien hoe ik externe data files kan gebruiken voor het runnen van meerde requests naar een adres met verschillende data sets. Daarbij ook testen vatgelegd met scripts om te kijken of de data sets bepaalde delen zouden missen of fouten bevatten.
+Sectie 10 (1 uur): Data Driven Tests. Bij deze sectie heb ik geleerd hoe ik data sets kan aanmaken en hoe ik die de data sets kan gebruiken en daarbij ook testen vastgelegd met pre-requested scripts. Daarna heb ik gezien hoe ik externe data files kan gebruiken voor het runnen van meerde requests naar een adres met verschillende data sets. Daarbij ook testen vatgelegd met scripts om te kijken of de data sets bepaalde delen zouden missen of fouten bevatten. U vind in de folder "deliverables" op github in "sectie 10" de collecties die ik heb gemaakt tijdens de videos die ik heb gekeken, zie github.
 
 Qectie 11 (30min): In deze sectie werd er getoond hoe dat je een repository kan maken met Github om zo een workspace te kunnen delen met iemand, alsook de samenwerking module dat er mogelijk is via github en via postman zelf. Daarna werden de rechten van de users besproken en hoe je die kan wijzigen in de loop van de tijd.
 
@@ -58,7 +58,7 @@ Qectie 11 (30min): In deze sectie werd er getoond hoe dat je een repository kan 
 
 Sectie 12 (30min): Bij deze sectie heb ik geleerd hoe dat ik een mock server kan aanmaken op postman. Als eerste werd gezegd wat een mock-server is, wat het doet en hoe je het gebruikt. Een mock-server is een api die je zelf kan opstellen met een response body zodat je zelf een api kan testen. Daarna heb ik gezien hoe je een mock-server kan gebruiken voor front-end developpers. Als laatste werd nog besproken hoe je response kan bijhouden van een bestaande API.
 
-Sectie 13 (30min): In deze sectie heb ik eerst geleerd hoe dat ik een upload form van een applicatie/website kan testen. Bijvoorbeeld of de file die geupload is succesvol is en de status code 200 bevat. Daarna heb ik geleerd hoe dat ik automatische testen kan runnen voor het "upload form test" met Newman of docker. Om dat te doen moet je jouw test-omgeving exporteren van postman en via de cli uitvoeren met newman/docker.
+Sectie 13 (30min): In deze sectie heb ik eerst geleerd hoe dat ik een upload form van een applicatie/website kan testen. Bijvoorbeeld of de file die geupload is succesvol is en de status code 200 bevat. Daarna heb ik geleerd hoe dat ik automatische testen kan runnen voor het "upload form test" met Newman of docker. Om dat te doen moet je jouw test-omgeving exporteren van postman en via de cli uitvoeren met newman/docker. Hierbij heb ik de collecties die ik heb gebruikt in de folder "deliverables" en dan "sectie 13" gezet, zie github.
 
 ## 22/11 - Week 9 - 1 uur 30 
 
@@ -66,11 +66,17 @@ Sectie 14 (30min): In deze sectie heb ik bijgeleerd over het authenticatie. Ten 
 
 Sectie 15 (1uur): In deze sectie keken we eerst naar de manier waarop je testen herbruikt in multiple requests. Door alle testen in een variabele te steken en die daarna als globale variabele mee te geven is dat mogelijk. Als 2de heb ik geleeerd hoe ik moet omgaan met CSV responses, dit hebben we gedaan met PapaParse (zie bronnen). Ten 3de heb ik geleerd hoe ik files kan schrijven in de file system (schijf) aan de hand van Newman en hoe ik ook variabele kan doorgeven aan Newman. Daarna heb ik nog geleerd hoe dat ik een request kan sturen vanuit de pre-request-tab. Als laatste heb ik geleerd hoe ik een connectie kan vastleggen met een database, alsook hoe dat ik  JSON schema validatie kan laten testen vanuit responses van de databank, om bijvoorbeeld na te kijken dat een bepaalde waarde een string is.
 
-## 29/11 - Week 10 - XX uur
+## 29/11 - Week 10 - 1 uur 30
+
+Sectie 16 (30min): Deze sectie ging over de nieuwe features die er in Postman zijn. Wanneer u de laatste features van postman bezit kan u in de sectie "API", een API aanmaken, designen, updaten (met update versies) en wijzigen hoe u dat wenst. Ik heb geleerd hoe ik een default schema kan terugvinden van een API via Swagger. Deze schema gebruik ik dan op postman met OpenAPI. Dat was het eerste punt die we hebben doorgenomen. 
+
+Als 2de punt heb ik meer geleerd over GraphQL. Dit is een soort API, zoals bijvoorbeeld RESTFul API of de vroegere SOAP API. Het verschil tussen RESTFul API en GraphQL is dat bij een RESTFul API wanneer een requests word uitgevoerd bijvoorbeeld: "/users/john" dat alle informatie van john als response gaat komen, namelijk zijn login, full name, userid, email,... En wanneer wij alleen zijn userid nodig hebben zal dat voor onnodige informatie zorgen. Bij GraphQL zal de requests uitgevoerd worden op basich van queries om de data te verkrijgen die de queries vereist.
 
 
+Sectie 17 (1uur): Deze sectie gaat over javascript. Deze ging vrij vlot omdat ik al vertrouwd ben met javascript fundamentels.
 
-# Totale duur : 23 uur
+
+# Totale duur : 25 uur
 
 # Bronnen 
 
@@ -99,3 +105,11 @@ https://github.com/postmanlabs/newman/tree/develop/docker
 https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation
 
 https://www.papaparse.com/
+
+https://swagger.io/tools/swaggerhub/
+
+https://learning.postman.com/docs/designing-and-developing-your-api/the-api-workflow/
+
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
+https://docs.github.com/en/graphql/reference/queries

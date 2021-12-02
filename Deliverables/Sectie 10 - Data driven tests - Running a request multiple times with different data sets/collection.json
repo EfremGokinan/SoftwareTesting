@@ -1,0 +1,74 @@
+{
+    "info": {
+        "_postman_id": "4c9b6848-9c1a-e3b6-1fb3-67bafee09a6c",
+        "name": "Data set",
+        "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "https://requestb.in/1dcigd51",
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "type": "text/javascript",
+                        "exec": [
+                            "var iterationData = pm.environment.get(\"iterationData\");",
+                            "",
+                            "if (iterationData && iterationData.length > 0) {",
+                            "    postman.setNextRequest(\"https://httpbin.org/post\");",
+                            "} else {",
+                            "    postman.setNextRequest(null);",
+                            "}",
+                            "",
+                            "",
+                            "",
+                            "pm.test(\"Content-Type is present\", function () {",
+                            "    pm.response.to.have.header(\"Content-Type\");",
+                            "});"
+                        ]
+                    }
+                },
+                {
+                    "listen": "prerequest",
+                    "script": {
+                        "type": "text/javascript",
+                        "exec": [
+                            "var companies = pm.environment.get(\"companies\");",
+                            "var iterationData = pm.environment.get(\"iterationData\");",
+                            "",
+                            "if (!companies) {",
+                            "    companies = [\"Gooooooogle\", \"Yahoo!\", \"Facebook\", \"Amazon\"];",
+                            "    pm.environment.set(\"companies\", companies);",
+                            "}",
+                            "",
+                            "if (!iterationData) {",
+                            "    iterationData = JSON.parse(JSON.stringify(companies)); // clone array",
+                            "}",
+                            "",
+                            "var currentCompany = iterationData.shift();",
+                            "pm.environment.set(\"company\", currentCompany);",
+                            "pm.environment.set(\"iterationData\", iterationData);",
+                            ""
+                        ]
+                    }
+                }
+            ],
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"name\": \"{{company}}\"\n}"
+                },
+                "url": "https://httpbin.org/post"
+            },
+            "response": []
+        }
+    ]
+}
