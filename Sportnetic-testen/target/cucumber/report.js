@@ -73,7 +73,7 @@ formatter.match({
   "location": "AccountGegevensStepdefs.deGebruikerIsIngelogd()"
 });
 formatter.result({
-  "duration": 3198850500,
+  "duration": 3153309700,
   "status": "passed"
 });
 formatter.match({
@@ -86,28 +86,28 @@ formatter.match({
   "location": "AccountGegevensStepdefs.gebruikerNavigeertNaarDePagina(String)"
 });
 formatter.result({
-  "duration": 449399100,
+  "duration": 468370300,
   "status": "passed"
 });
 formatter.match({
   "location": "AccountGegevensStepdefs.bevindtHijZichInDeAccountPagina()"
 });
 formatter.result({
-  "duration": 23083700,
+  "duration": 22767800,
   "status": "passed"
 });
 formatter.match({
   "location": "AccountGegevensStepdefs.wordenZijnGegevensVanZijnAccountGetoond()"
 });
 formatter.result({
-  "duration": 91594600,
+  "duration": 94116900,
   "status": "passed"
 });
 formatter.match({
   "location": "AccountGegevensStepdefs.deGebruikerBevindtZichOpDeAccountPagina()"
 });
 formatter.result({
-  "duration": 9835300,
+  "duration": 10225200,
   "status": "passed"
 });
 formatter.match({
@@ -120,7 +120,7 @@ formatter.match({
   "location": "AccountGegevensStepdefs.deGebruikerZijnNaamWijzigtNaar(String)"
 });
 formatter.result({
-  "duration": 71582300,
+  "duration": 75836200,
   "status": "passed"
 });
 formatter.match({
@@ -133,7 +133,7 @@ formatter.match({
   "location": "AccountGegevensStepdefs.zijnTelefoonnummerWijzigtNaar(String)"
 });
 formatter.result({
-  "duration": 63420300,
+  "duration": 65660500,
   "status": "passed"
 });
 formatter.match({
@@ -146,28 +146,28 @@ formatter.match({
   "location": "AccountGegevensStepdefs.zijnGeslachtWijzigt(String)"
 });
 formatter.result({
-  "duration": 26747400,
+  "duration": 25895900,
   "status": "passed"
 });
 formatter.match({
   "location": "AccountGegevensStepdefs.opDeUpdateAccountButtonDrukt()"
 });
 formatter.result({
-  "duration": 1042237200,
+  "duration": 1048284000,
   "status": "passed"
 });
 formatter.match({
   "location": "AccountGegevensStepdefs.zijnDeGegevensGewijzigd()"
 });
 formatter.result({
-  "duration": 46959800,
+  "duration": 47625800,
   "status": "passed"
 });
 formatter.match({
   "location": "AccountGegevensStepdefs.opgeslagen()"
 });
 formatter.result({
-  "duration": 4309481300,
+  "duration": 4339840500,
   "status": "passed"
 });
 formatter.uri("be.odisee.sportnetic/inloggen.feature");
@@ -220,7 +220,7 @@ formatter.match({
   "location": "InloggenStepdefs.deGebruikerBevindtZichOpDePaginaWaarHijZijnGegevensMoetInvullenOmInTeLoggen()"
 });
 formatter.result({
-  "duration": 1330979100,
+  "duration": 1831243200,
   "status": "passed"
 });
 formatter.match({
@@ -233,7 +233,7 @@ formatter.match({
   "location": "InloggenStepdefs.deGebruikerVoertZijnEmailAdresIn(String)"
 });
 formatter.result({
-  "duration": 47129100,
+  "duration": 45258900,
   "status": "passed"
 });
 formatter.match({
@@ -246,28 +246,168 @@ formatter.match({
   "location": "InloggenStepdefs.zijnPaswoordInvoert(String)"
 });
 formatter.result({
-  "duration": 56624900,
+  "duration": 37711100,
   "status": "passed"
 });
 formatter.match({
   "location": "InloggenStepdefs.opDeButtonDrukt()"
 });
 formatter.result({
-  "duration": 31047100,
+  "duration": 29167900,
   "status": "passed"
 });
 formatter.match({
   "location": "InloggenStepdefs.bevindtHijZichOpDeHomePagina()"
 });
 formatter.result({
-  "duration": 1174849700,
+  "duration": 1175846500,
   "status": "passed"
 });
 formatter.match({
   "location": "InloggenStepdefs.isDeGebruikerIngelogd()"
 });
 formatter.result({
-  "duration": 4128499000,
+  "duration": 4129900800,
+  "status": "passed"
+});
+formatter.uri("be.odisee.sportnetic/profielgegevens.feature");
+formatter.feature({
+  "line": 2,
+  "name": "Profiel gegevens bekijken en wijzigen",
+  "description": "",
+  "id": "profiel-gegevens-bekijken-en-wijzigen",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 4,
+  "name": "Een gebruiker bekijkt en wijzigt zijn profielgegevens",
+  "description": "",
+  "id": "profiel-gegevens-bekijken-en-wijzigen;een-gebruiker-bekijkt-en-wijzigt-zijn-profielgegevens",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 5,
+  "name": "De gebruiker bevindt zich op de home pagina en is ingelogd",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "De gebruiker navigeert naar de \"profile\" pagina",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "Bevindt hij zich in de profiel-pagina",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 8,
+  "name": "worden zijn profielgegevens getoond",
+  "rows": [
+    {
+      "cells": [
+        "label",
+        "data"
+      ],
+      "line": 9
+    },
+    {
+      "cells": [
+        "txtAbout",
+        "test"
+      ],
+      "line": 10
+    }
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "De gebruiker bevindt zich op de profiel-pagina",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 13,
+  "name": "de gebruiker zijn profile heading wijzigt naar \"Hallo dit is een test\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 14,
+  "name": "op de update profile button drukt",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "krijgt de gebruiker een alert dat het succesvol is",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "ProfielGegevensStepdefs.deGebruikerBevindtZichOpDeHomePaginaEnIsIngelogd()"
+});
+formatter.result({
+  "duration": 2669758800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "profile",
+      "offset": 32
+    }
+  ],
+  "location": "ProfielGegevensStepdefs.deGebruikerNavigeertNaarDePaginaEnIsIngelogd(String)"
+});
+formatter.result({
+  "duration": 475514900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ProfielGegevensStepdefs.bevindtHijZichInDeProfielPagina()"
+});
+formatter.result({
+  "duration": 61145100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ProfielGegevensStepdefs.wordenZijnProfielgegevensGetoond(ProfielGegevensStepdefs$LabelData\u003e)"
+});
+formatter.result({
+  "duration": 72045200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ProfielGegevensStepdefs.deGebruikerBevindtZichOpDeProfielPagina()"
+});
+formatter.result({
+  "duration": 55281300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Hallo dit is een test",
+      "offset": 48
+    }
+  ],
+  "location": "ProfielGegevensStepdefs.deGebruikerZijnProfileHeadingWijzigtNaar(String)"
+});
+formatter.result({
+  "duration": 73432600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ProfielGegevensStepdefs.opDeUpdateProfileButtonDrukt()"
+});
+formatter.result({
+  "duration": 36147800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ProfielGegevensStepdefs.krijgtDeGebruikerEenAlertDatHetSuccesvolIs()"
+});
+formatter.result({
+  "duration": 4148286200,
   "status": "passed"
 });
 });
